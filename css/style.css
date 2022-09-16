@@ -1,0 +1,218 @@
+/* configurações gerais */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  background: #040404 url("../img/banner3.png") top right no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  
+  left: 0px;
+  right: 0;
+  top: 0;
+  height: 100vh;
+  z-index: -1;
+}
+
+@media (min-width: 1024px) {
+  body::before {
+    background-attachment: fixed;
+  }
+}
+
+/* header */
+
+.header-container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  box-sizing: border-box;
+  padding: 0 112px;
+  position: relative;
+}
+
+.header-container2 {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  box-sizing: border-box;
+  padding: 0 112px;
+  position: relative;
+}
+
+.header-container3 {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  box-sizing: border-box;
+  padding: 0 112px;
+  position: relative;
+}
+
+h1 {
+  font-size: 70px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  left: 0px;
+  letter-spacing: 10px;
+  margin-top: 500px;
+}
+
+
+h2 {
+  letter-spacing: 4px;
+  font-weight: 400;
+  margin-top: -50px;
+}
+
+/* social media */
+
+.social-media {
+  margin-top: 40px;
+  display: flex;
+}
+
+.social-media a {
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  margin-right: 8px;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+}
+
+.social-media a:hover {
+  background: #b1b1b1;
+}
+
+/* menu de navegação */
+
+.nav-menu {
+  padding: 20px;
+  /* position: absolute; */
+  position: fixed;
+  right: 60px;
+}
+
+.nav-menu ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.nav-menu li+li {
+  margin-left: 30px;
+}
+
+.nav-menu a {
+  display: block;
+  position: relative;
+  color: white;
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+
+.fixed {
+  position: fixed;
+  top: 100px;
+  left: 300px;
+}
+
+/* section */
+
+section {
+  overflow: visible;
+  position: absolute;
+  width: 100%;
+  top: 140px;
+  bottom: 100%;
+  
+  
+}
+
+.container {
+  display: none;
+  
+}
+
+.container2 {
+  display: none;
+}
+
+.container3 {
+  display: none;
+}
+
+
+section .container {
+  background: rgba(0, 0, 0, 0.9);
+  padding: 40px;
+  border-radius: 10px;
+}
+
+section .container2 {
+  background: rgba(0, 0, 0, 0.9);
+  padding: 40px;
+  border-radius: 10px;
+}
+
+section .container3 {
+  background: rgba(0, 0, 0, 0.9);
+  padding: 40px;
+  border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+  section {
+    top: 1500px;
+  }
+  section.section-show {
+    top: 80px;
+  }
+}
+
+.section-titulo h2 {
+  font-size: 14px;
+  font-weight: 500;
+  padding: 0;
+  margin: 0 0 20px 0;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #aaaaaa;
+}
+
+.section-titulo p {
+  margin: 0;
+  margin: -15px 0 15px 0;
+  font-size: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+
+.nome {
+  display: block;
+}
+
+
