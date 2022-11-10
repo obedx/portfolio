@@ -2,7 +2,7 @@
 
 var esconderMostrarHome = document.getElementById('home');
 var esconderMostrarSobre = document.getElementById('sobre');
-var esconderMostrarPortifolio = document.getElementById('portifolio');
+var esconderMostrarPortfolio = document.getElementById('portifolio');
 var esconderMostrarContato = document.getElementById('contato');
 
 
@@ -34,9 +34,9 @@ esconderMostrarSobre.addEventListener('click', function () {
 
 });
 
-//portifolio//
+//portfolio//
 
-esconderMostrarPortifolio.addEventListener('click', function () {
+esconderMostrarPortfolio.addEventListener('click', function () {
     container.style.display = 'none';
     container2.style.display = 'block';
     container3.style.display = 'none';
